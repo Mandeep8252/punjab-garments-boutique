@@ -30,7 +30,7 @@ const PHONE = "8252439516";
 const ADDRESS =
   "Kapra Patti Bhunja Wala Gali, Gudari Bazar, Takkad Morde, Chapra, Bihar 841301, India";
 const MAPS_LINK = "https://maps.app.goo.gl/ybz73mjKjJQ9C9C9ny6";
-const MAP_EMBED = `https://maps.google.com/maps?q=${encodeURIComponent(ADDRESS)}&z=16&output=embed`;
+
 
 const collection = [
   { name: "Kurti Sets", desc: "Everyday grace, finished with fine embroidery.", img: kurtiImg },
