@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
 const PHONE = "8252439516";
 const ADDRESS =
   "Kapra Patti Bhunja Wala Gali, Gudari Bazar, Takkad Morde, Chapra, Bihar 841301, India";
-const MAPS_LINK = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(ADDRESS)}`;
+const MAPS_LINK = "https://maps.app.goo.gl/ybz73mjKjJQ9C9C9ny6";
 const MAP_EMBED = `https://maps.google.com/maps?q=${encodeURIComponent(ADDRESS)}&z=16&output=embed`;
 
 const collection = [
@@ -188,11 +188,14 @@ function Index() {
           <Reveal delay={140}>
             <div className="overflow-hidden shadow-[var(--shadow-soft)]">
               <iframe
-                title="Punjab Garments location on Google Maps"
-                src={MAP_EMBED}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.5704904626878!2d84.71193777436547!3d25.784746707654346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992bb930e582f27%3A0xd03fc768debcd10b!2sPunjab%20Garments!5e0!3m2!1sen!2sin!4v1787320757232!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="h-[380px] w-full border-0 lg:h-[440px]"
+                referrerPolicy="strict-origin-when-cross-origin"
+                className="h-[380px] w-full lg:h-[440px]"
               />
             </div>
           </Reveal>
