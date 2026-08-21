@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
 const PHONE = "8252439516";
 const ADDRESS =
   "Kapra Patti Bhunja Wala Gali, Gudari Bazar, Takkad Morde, Chapra, Bihar 841301, India";
-const MAPS_LINK = "https://maps.app.goo.gl/ybz73mjKjJQ9C9C9ny6";
+const MAPS_LINK = "https://maps.app.goo.gl/ybz73mjKjJQ9C9ny6";
 
 
 const collection = [
