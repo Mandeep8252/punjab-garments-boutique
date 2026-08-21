@@ -175,14 +175,6 @@ function Index() {
                 <br />
                 10:00 AM – 7:00 PM
               </p>
-              <a
-                href="https://maps.app.goo.gl/ybz73mjKjJQ9C9ny6"
-                target="_blank"
-                rel="noreferrer"
-                className="mt-8 inline-flex items-center justify-center bg-primary px-9 py-4 text-xs uppercase tracking-[0.3em] text-primary-foreground transition-all duration-500 hover:bg-primary/90 hover:tracking-[0.36em]"
-              >
-                Get Directions
-              </a>
             </div>
           </Reveal>
           <Reveal delay={140}>
