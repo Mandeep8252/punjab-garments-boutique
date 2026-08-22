@@ -234,13 +234,6 @@ function Index() {
         </div>
       </footer>
 
-      {/* Floating call button (mobile) */}
-      <a
-        href={`tel:+91${PHONE}`}
-        className="fixed inset-x-4 bottom-4 z-50 flex items-center justify-center gap-2 bg-gold py-4 text-xs uppercase tracking-[0.3em] text-primary shadow-[var(--shadow-lift)] transition-transform duration-300 active:scale-[0.98] sm:hidden"
-      >
-        Call Now
-      </a>
     </main>
   );
 }
