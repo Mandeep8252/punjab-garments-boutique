@@ -10,7 +10,7 @@ import jeansImg from "@/assets/jeanstop.jpg";
 
 const TITLE = "Punjab Garments — Elegant Women's Fashion in Chapra, Bihar";
 const DESC =
-  "Punjab Garments in Gudari Bazar, Chapra: kurti sets, nayra cuts, gowns, suits, crop tops and jeans tops. Open all week, 10 AM – 7 PM. Call 8252439516.";
+  "Punjab Garments in Gudari Bazar, Chapra: kurti sets, nayra cuts, gowns, suits, crop tops and jeans tops. Open all week, 10 AM – 7 PM. Call 8825192557.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE = "8252439516";
+const PHONE = "8825192557";
 const ADDRESS =
   "Kapra Patti Bhunja Wala Gali, Gudari Bazar, Takkad Morde, Chapra, Bihar 841301, India";
 const MAPS_LINK = "https://maps.app.goo.gl/ybz73mjKjJQ9C9ny6";
